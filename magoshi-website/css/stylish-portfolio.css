@@ -220,7 +220,7 @@ Modfies attributes for the carousel div
 	padding: 9px;
 	width: 100%;
 	height: 450px;
-	background-color:#f70;
+	background-color:#789;
 }
 
 /* Carousel slide:
@@ -233,7 +233,7 @@ Modfies attributes for the carousel slide
 	width: 50%;
 	height: 420px;
 	background-color:#500;
-	box-shadow: 10px 10px 2px black;
+	box-shadow: 2px 5px 5px 2px black;
 }
 
 .portfolio-item {
