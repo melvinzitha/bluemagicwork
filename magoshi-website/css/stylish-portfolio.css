@@ -212,6 +212,29 @@ hr.small {
 	background:#789;
 	/*background-color:#575;*/
 }
+/*Carousel div:
+
+Modfies attributes for the carousel div
+*/
+.car-div{
+	padding: 9px;
+	width: 100%;
+	height: 450px;
+	background-color:#f70;
+}
+
+/* Carousel slide:
+
+Modfies attributes for the carousel slide
+*/
+.car-slide{
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: 420px;
+	background-color:#500;
+	box-shadow: 10px 10px 2px black;
+}
 
 .portfolio-item {
     margin-bottom: 30px;
@@ -224,7 +247,11 @@ hr.small {
 .img-portfolio:hover {
     opacity: .8;
 }
-
+/* Carousel images */
+.img-car{
+	margin: auto;
+	text-align:center;
+}
 
 /* Call to Action */
 
