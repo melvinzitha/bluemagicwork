@@ -1,0 +1,131 @@
+#blue {
+	 color: blue;
+	 font-size: 35px;
+}
+
+#magic {
+	 color: white;
+	 font-size: 35px;
+}
+
+#fix {
+  position: fixed;
+  overflow: hidden;
+  top:0; 
+  width:100%;
+}
+
+.head {
+	font-size: 40px;
+}
+
+/* general settings */
+
+input,textarea {
+ 	-webkit-appearance:none;
+ 	background-color:grey;
+  	border:none;
+  	border-radius:3px;
+  	font-size:1em;
+  	font-weight:100;
+    width: 70px;
+}
+
+input:focus,textarea:focus {
+  	border:none;
+  	outline:2px solid #7ed7b9;
+}
+
+.labels {
+	font-size: 20px;
+	color: grey;
+}
+
+.left {
+  	float:left;
+}
+
+.right {
+  	float:right;
+}
+
+.btn {
+  	background-color:green;
+  	border-radius:24px;
+  	color:black;
+  	display:inline-block;
+  	font-size:1.4em;
+  	font-weight:400;
+  	margin:30px 0;
+  	padding:10px 30px;
+  	text-decoration:none;
+}
+
+.btn:hover {
+  	opacity:0.8;
+}
+
+#formQuote {
+	width:100%;
+	position: relative;
+	margin: 0 auto;
+	max-width:1420px;
+	box-sizing:border-box;
+	overflow:hidden;
+    padding:0 50px;
+	height: 1070px;
+  color: white;
+}
+
+.form-required {
+	color: red;
+}
+
+.paddRow {
+    position: relative;
+    top: 100px;
+  	background-color:white;
+  	color:#818181;
+  	display:none;
+  	padding-bottom:40px;
+}
+
+#mainContent {
+	font:black;
+	font-size: 100px;
+	background-color:white
+}
+
+
+.contactForm {
+  	width:100%;
+}
+
+.input {
+   	-moz-box-sizing:border-box;
+ 	-webkit-box-sizing:border-box;
+  	box-sizing:border-box;
+  	margin:1% 0;
+  	padding:12px 14px;
+  	width:47%;
+}
+
+.input.email {
+}
+
+button {
+  	border:none;
+  	cursor:pointer;
+}
+
+.textarea {
+ 	-moz-box-sizing:border-box;
+ 	-webkit-box-sizing:border-box;
+  	box-sizing:border-box;
+  	height:200px;
+  	margin:1% 0;
+  	overflow:auto;
+  	padding:12px 14px;
+  	resize:none;
+  	width:100%;
+}
